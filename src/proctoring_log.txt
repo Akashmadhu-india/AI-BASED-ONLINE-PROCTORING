@@ -1,0 +1,45 @@
+2025-11-12 14:35:16 - ALERT: Silent whispering detected.
+2025-11-12 14:35:21 - ALERT: Silent whispering detected.
+2025-11-12 14:35:26 - ALERT: Silent whispering detected.
+2025-11-12 14:35:32 - ALERT: Silent whispering detected.
+2025-11-12 14:35:37 - ALERT: Silent whispering detected.
+2025-11-12 14:35:38 - ALERT: User looked away from the screen.
+2025-11-12 14:35:38 - ALERT: Eye gaze is off-center.
+2025-11-12 14:35:42 - ALERT: Silent whispering detected.
+2025-11-12 14:35:44 - ALERT: User looked away from the screen.
+2025-11-12 14:35:47 - ALERT: Silent whispering detected.
+2025-11-12 14:35:52 - ALERT: Silent whispering detected.
+2025-11-12 14:35:57 - ALERT: Silent whispering detected.
+2025-11-12 14:36:02 - ALERT: Silent whispering detected.
+2025-11-12 14:36:03 - ALERT: Eye gaze is off-center.
+2025-11-12 14:36:07 - ALERT: Silent whispering detected.
+2025-11-12 14:36:08 - ALERT: User looked away from the screen.
+2025-11-12 14:36:12 - ALERT: Silent whispering detected.
+2025-11-12 14:36:17 - ALERT: Silent whispering detected.
+2025-11-12 14:36:22 - ALERT: Silent whispering detected.
+2025-11-12 14:36:28 - ALERT: Silent whispering detected.
+2025-11-12 14:36:32 - ALERT: User looked away from the screen.
+2025-11-12 14:36:33 - ALERT: Silent whispering detected.
+2025-11-12 14:36:38 - ALERT: Silent whispering detected.
+2025-11-12 14:36:38 - ALERT: User looked away from the screen.
+2025-11-12 14:36:43 - ALERT: Silent whispering detected.
+2025-11-12 14:36:43 - ALERT: User looked away from the screen.
+2025-11-12 14:36:48 - ALERT: Silent whispering detected.
+2025-11-12 14:36:53 - ALERT: Silent whispering detected.
+2025-11-15 21:06:40 - ALERT: Eye gaze is off-center.
+2025-11-15 21:06:46 - ALERT: Eye gaze is off-center.
+2025-11-15 21:06:50 - ALERT: User looked away from the screen.
+2025-11-15 21:06:51 - ALERT: Eye gaze is off-center.
+2025-11-15 21:06:54 - ALERT: Prohibited object detected.
+2025-11-15 21:06:56 - ALERT: Eye gaze is off-center.
+2025-11-15 21:17:15 - ALERT: Eye gaze is off-center.
+2025-11-15 21:17:17 - ALERT: User looked away from the screen.
+2025-11-15 21:17:22 - ALERT: Eye gaze is off-center.
+2025-11-15 21:17:28 - ALERT: Eye gaze is off-center.
+2025-11-15 21:17:33 - ALERT: Prohibited object detected.
+2025-11-15 21:17:38 - ALERT: Eye gaze is off-center.
+2025-11-15 21:22:52 - ALERT: User looked away from the screen.
+2025-11-15 21:22:52 - ALERT: Eye gaze is off-center.
+2025-11-15 21:22:57 - ALERT: Eye gaze is off-center.
+2025-11-15 21:23:00 - ALERT: Speaking or noise detected.
+2025-11-15 21:23:05 - ALERT: Prohibited object detected.

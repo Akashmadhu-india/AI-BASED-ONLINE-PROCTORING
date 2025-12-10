@@ -1,0 +1,162 @@
+/* --- General Styling & Resets --- */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* --- Main Container --- */
+.container {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    min-height: 700px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+/* --- Login Panel (Left Side) --- */
+.login-panel {
+    flex: 1;
+    padding: 40px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login-header h1 {
+    font-size: 28px;
+    color: #1c1e21;
+    margin-bottom: 8px;
+}
+
+.login-header p {
+    font-size: 16px;
+    color: #606770;
+    margin-bottom: 30px;
+}
+
+/* --- Form Styling --- */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 6px;
+    font-size: 14px;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: border-color 0.2s;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    outline: none;
+    border-color: #1877f2;
+    box-shadow: 0 0 0 2px #e7f3ff;
+}
+
+.form-options {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.form-options input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+.login-button {
+    width: 100%;
+    padding: 14px;
+    background-color: #1877f2;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.login-button:hover {
+    background-color: #166fe5;
+}
+
+.error-message {
+    color: #fa383e;
+    background-color: #ffeef0;
+    border: 1px solid #fa383e;
+    padding: 12px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    display: none; /* Hidden by default */
+}
+
+/* --- Camera Panel (Right Side) --- */
+.camera-panel {
+    flex: 1;
+    background-color: #1c1e21;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.camera-placeholder {
+    color: #606770;
+    font-size: 20px;
+    font-weight: 500;
+    border: 2px dashed #444;
+    padding: 100px 80px;
+    border-radius: 8px;
+}
+
+#camera-feed {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: none; /* Hidden until camera is active */
+    transform: scaleX(-1); /* Mirror the video feed */
+}
+
+/* --- Responsive Design --- */
+@media (max-width: 900px) {
+    .container {
+        flex-direction: column;
+        min-height: auto;
+        width: 90%;
+        margin: 20px 0;
+    }
+
+    .login-panel {
+        padding: 30px;
+    }
+
+    .camera-panel {
+        min-height: 400px;
+    }
+}
